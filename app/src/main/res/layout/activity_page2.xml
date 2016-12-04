@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_page2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shawnkrishnan.gitfit.Page2Activity">
+
+    <TextView
+        android:text="3. Your Content
+
+In these Website Standard Terms and Conditions, “Your Content” any or other material you choose to display on this Website. By displaying Your Content,
+
+you grant GifFit LLC a non-exclusive, worldwide irrevocable, sub licensable license to use,
+
+reproduce, adapt, publish, translate and distribute it in any and all media.
+
+Your Content must be your own and must not be invading any third-party’s rights. GifFit LLC
+
+reserves the right to remove any of Your Content from this Website at any time without notice.
+
+4. No warranties
+
+This Website is provided “as is,” with all faults, and GifFit LLC express no representations or
+
+warranties, of any kind related to this Website. Also,
+
+nothing contained on this Website shall be interpreted as advising you.
+
+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="Next Page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="441dp"
+        android:id="@+id/p2" />
+
+
+</RelativeLayout>
